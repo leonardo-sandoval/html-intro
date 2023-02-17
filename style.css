@@ -1,0 +1,201 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+body{
+    background-color: rgb(137, 141, 151);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0 ,0 ,0.1 );
+
+}
+.profiletext{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255,0.2);
+}
+.profiletext .imgbx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profiletext .imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   background-color: aliceblue;
+}
+.profiletext h2{
+    color: azure;font-size: 1.5em;
+    margin-top: 20%;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+
+}
+.profiletext h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.contactoinfo{
+    padding-top: 40px;
+}
+.title{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
+}
+.contactoinfo ul{
+    position: relative;
+}
+.contactoinfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0 ;
+    cursor: pointer;
+
+}
+.contactoinfo ul li .icon
+{
+display: inline-block;
+width: 30px;
+font-size: 18px;
+color: rgb(36, 153, 255);
+}
+
+.contactoinfo ul li span
+{
+color: aliceblue;
+font-weight: 300;
+}
+.contactoeducacion li {
+    margin-bottom: 15px;
+
+}
+.contactoeducacion h5{
+    color: aqua;
+    font-weight: 500;
+
+}
+.contactoeducacion h4{
+    color: aliceblue;
+    font-weight: 300;
+}
+.contactoidio .percent
+{
+position: relative;
+width: 100%;
+height: 6px;
+background: rgb(15, 20, 51);
+display: block;
+margin-top: 5px;
+}
+.contactoidio .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(182, 24, 32);
+}
+
+
+
+
+
+
+
+
+.container .left_side
+{
+    position: relative;
+    background-color:rgb(32, 60, 151) ;
+    padding: 40px;
+}
+.container .rigt_side
+{
+    position: relative;
+    background-color:rgb(255, 255, 255) ;
+    padding: 40px;
+}
+.about{
+    margin-bottom: 50px;
+}
+.about:last-child
+{
+    margin-bottom: 0;
+
+}
+.title2{
+    color: blue;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p{
+    color: #333;
+}
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+
+}
+.about .box .compañia {
+    min-width: 150px;
+}
+.about .box .compañia h5{
+   text-transform: uppercase;
+   color: rgb(21, 43, 63);
+   font-weight: 600;
+ 
+}
+.about .box .text h4{
+    text-transform: uppercase;
+    color: aqua;
+    font-size: 16px;
+
+}
+.exper{
+    color: rgb(12, 15, 172);
+    text-transform: uppercase;
+    font-size: 22px;
+    
+}
+table,
+td {
+    border: 1px solid #f7e6e6;
+    width: 600px;
+}
+
+thead,
+tfoot {
+    background-color: #4744db;
+    color: #fff;
+}
